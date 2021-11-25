@@ -1,0 +1,124 @@
+* {
+  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h2 {
+	color: #eef0f5;
+ 
+}
+
+h4 {
+	
+ 	font-family: 'Estonia', cursive;
+}
+
+
+.backgroundImage {
+
+     background-image: url("god_pizza.jpeg");
+       background-repeat:no-repeat;
+	    background-size: 100%;  
+      background-color: rgb(6, 39, 20);
+}
+header {
+	background-color:red;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+
+
+header.header_logo {
+	text-align: center;	
+	display: flex;
+	justify-content: center;
+	padding-left: 50px;
+	color: #0A2864;
+  transition: 0.2s;
+}
+
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: red;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	padding: 12px 12px 13px 12px;
+	color: #d6dbe6;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #e2e5ec;
+	color: #F7F6F3;
+}
+
+
+article.lunch {
+	
+	text-align: center;
+	background-color: #27a800c4;
+	color: #0e0808;
+	margin-top: 200px;
+	padding: 15px;
+	
+}
+
+article.lunch h4 {
+	font-size: 50px;
+}
+
+article.alt {
+	
+	margin-top: 400px;
+	border-color:lawngreen;
+	background-color: #F7F6F3;
+	color: #0A2864;
+	text-align: center;
+	padding: 15px;
+}
+
+
+footer {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: baseline;
+	justify-content: center;
+	background-color: red;
+	height: auto;
+}
+
+footer ul {
+    color: #F7F6F3;
+    margin: 10px 50px;
+    text-align: center;
+    line-height: 1.2;
+    list-style: none;
+}
+
+footer li h3 {
+	margin-bottom: 4px;
+}
+
